@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  background-color: #111;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #000;
+}
+
+.logo {
+  width: 100px;
+  align-items: center;
+
+}
+
+.nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.user-icon {
+  width: 30px;
+  border-radius: 4px;
+}
+
+.banner {
+  height: 70vh;
+  background-image: url('assets/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.banner-content {
+  position: absolute;
+  bottom: 50px;
+  left: 30px;
+}
+
+.banner-buttons button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.row {
+  margin-left: 20px;
+}
+
+.row h2 {
+  margin-bottom: 10px;
+}
+
+.row-posters {
+  display: flex;
+  overflow-x: auto;
+  padding-bottom: 20px;
+}
+
+.poster {
+  max-height: 160px;
+  margin-right: 10px;
+  border-radius: 4px;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.poster:hover {
+  transform: scale(1.1);
+}
+
+.show-logo {
+  max-width: 300px;
+  height: 230px;
+  margin-bottom: 10px;
+}
+
