@@ -1,3 +1,5 @@
+
+
 body {
   margin: 0;
   background-color: #111;
@@ -82,5 +84,56 @@ body {
   max-width: 300px;
   height: 230px;
   margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .nav a {
+    display: block;
+    margin: 8px 0;
+  }
+
+  .banner-content {
+    padding: 20px 15px;
+    text-align: left;
+  }
+
+  .banner-content h1 {
+    font-size: 24px;
+  }
+
+  .banner-content p {
+    font-size: 16px;
+  }
+
+  .banner-buttons button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .row {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .row-posters {
+    overflow-x: auto;
+    padding: 10px 0;
+  }
+
+  .poster {
+    max-height: 120px;
+    margin-right: 8px;
+  }
+
+  .show-logo {
+    max-width: 200px;
+  }
 }
 
